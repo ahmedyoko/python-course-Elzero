@@ -10,8 +10,7 @@ print('#' * 80)
 age = input('please write your age ').strip()
 
 # collect time unit data :
-unit = input(
-    'please choose time unit : months , weeks , days  ').strip().lower()
+unit = input('please choose time unit : months , weeks , days  ').strip().lower()
 # get time unit :
 months = int(age) * 12
 weeks = months * 4

@@ -24,34 +24,33 @@ print(MyAwesomeTupleOne)
 print(MyAwesomeTupleTwo)
 print(type(MyAwesomeTupleOne))
 print(type(MyAwesomeTupleTwo))
-
+print('#'*50)
 #Tuple Indexing : 
 MyAwesomeTupleThree = (1,2,3,4,5)
 print(MyAwesomeTupleThree[0])
 print(MyAwesomeTupleThree[-1])
 print(MyAwesomeTupleThree[3])
-
+print('#'*50)
 # #Tuple assign value : 
 # MyAwesomeTupleThree[1] = 90
 # print(MyAwesomeTupleThree) #TypeError: 'tuple' object does not support item assignment
-
 # not unique and different data types : 
 a = ('osama','osama',1,2,3,4,100.5,True)
 print(a)
-
+print('#'*50)
 # Tuple with one element : 
 a = ('osama')
 b = 'osama'
 print(type(a)) #<class 'str'>
 print(type(b)) #<class 'str'>
-# to differentiate between tuple and string but comma after the item
+# to differentiate between tuple and string put comma after the item
 a = ('osama',)
 b = 'osama',
 print(type(a)) #<class 'tuple'>
 print(type(b)) #<class 'tuple'>
 print(len(a)) #<class 'tuple'>
 print(len(b)) #<class 'tuple'>
-
+print('#'*50)
 # 9-Tuple concatenation
 a = (1,2,3,4)
 b = (5,6)
@@ -59,7 +58,7 @@ c = a + b
 print(a + b)
 print(c)
 # print()
-
+print('#'*50)
 # 10 - Tuple , list , string repeat (*)
 MyString = ('osama')
 Mylist = [1,2]
@@ -68,17 +67,17 @@ MyTuple = ('A','B')
 print(MyString*6) 
 print(Mylist*6) 
 print(MyTuple*6) 
-
+print('#'*50)
 # 11- count method : to count an item in tuple
 a = (1,3,5,8 , 7 , 3 ,8,9)
 print(a.count(8))
-
+print('#'*50)
 # 12 - Index method to know the position of the Item
 a = (1,3,5,8 , 7 , 3 ,8,9)
 print('the position of indexing of 8 is : {}'.format(a.index(3)))                               
 print('the position of indexing of 8 is : {:d}'.format(a.index(3)))                               
 print(f'the position of indexing of 8 is : {a.index(3)}')   
-
+print('#'*50)
 # 13- Tuple destruct or unpack : distribute tuple items to equal number of variable
 a = ('A','B','C')
 x,y,z = a

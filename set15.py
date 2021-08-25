@@ -4,7 +4,7 @@
 # 1- set Item enclosed in curly braces
 # 2- not ordered item so not indexed
 # 3- indexing and slicing can not be done
-# 4- has immutable data types(numbers,string,tuple)not list and dictionary=> as it mutable
+# 4- its items may be immutable data types(numbers,string,tuple)not list and dictionary=> as it mutable
 # 5- Item is unique
 #.............
 # Set method
@@ -43,7 +43,7 @@ print(MyAwesomeSet)
 # print(MySet) #TypeError: unhashable type: 'list'
 MySet = {'Osama',1.5,100,True,(1,2,3)}
 print(MySet)
-
+print('#'*50)
 
 # 5- Item is unique
 a = {1,1,'osama','osama',2}  
@@ -55,7 +55,7 @@ print(a)
 a = {2,4,5,7,4}
 print(a.clear()) # None
 print(a) #set()
-
+print('#'*50)
 # 2- union method : to unify more than one sets
 a = {1,2,3,5}
 b = {'A','V','B'}
@@ -69,7 +69,7 @@ a.add(5)
 a.add(6)
 print(a)
 # print(a.add(5,6)) #TypeError: set.add() takes exactly one argument (2 given)
-
+print('#'*50)
 # 4- copy method : shallow copy not deep copy mean separate copies 
 a = {1,2,3,5,'a'}
 f = a.copy()
@@ -78,7 +78,7 @@ print(f)
 a.add('b')
 print(a)
 print(f)
-
+print('#'*50)
 # 5- remove method : remove one element from the set
 a = {1,2,3,5,'a',6}
 a.remove('a')
@@ -90,23 +90,23 @@ print(a)
 a = {1,2,3,5,'a',6 ,'b'}
 a.discard(10) 
 print(a)
-
+print('#'*50)
 # 7- pop method : pop out random elements
 i = {'a','b',True,1,2,3,4,5}
 print(i.pop())
-
-# 8- update method : as union
+print('#'*50)
+# 8- update method : as union(I can enter list items as a several items)
 a = {1,2,3,4,'z'}
 v = {'a','b','z',1,5,6}
 a.update(['html','css'])
 a.update(v)
 print(a)
-
+print('#'*50)
 # 9 - difference method : the output is the items distinguish the first set
 x = {1,2,3,4}
 y = {1,2,'A','B'}
 print(x)
-print(x.difference(y))# x&y {3,4}
+print(x.difference(y))
 print(x-y)
 
 print('='*40) #separator

@@ -8,7 +8,7 @@
 # 3- Ternary conditional operator : 
 #-------------------------------
 
-from stringFormat9 import Age
+#from stringFormat9 import Age
 
 
 uName = 'osama'
@@ -90,7 +90,7 @@ if Country == "Egypt":
 elif Country == "KSA":
         print(f'The weather in this {Country} is 30')
 else:
-        print('your country doesn\'in the list')
+        print('your country doesn\'t in the list')
 
 
 MovieRate = 18

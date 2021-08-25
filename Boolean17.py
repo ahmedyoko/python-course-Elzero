@@ -29,7 +29,7 @@ print('='*50)
 
 # bool : builtin function , its output either True or False
 #True values
-print(bool('string'))
+print(bool('string')) # is there is string or is this is str
 print(bool(100))
 print(bool(100.5))
 print(bool([1,2,3,4]))
@@ -49,6 +49,7 @@ print(bool(False))
 print('='*50)
 
 # logical operator : and or not
+print('logical operator')
 age = 30
 country = 'Egypt'
 rank = 10
@@ -63,7 +64,7 @@ print(age > 16)
 print( not age > 16)
 print('='*50)
 
-#boolean operator : add value to variable
+# boolean operator : add value to variable
 x = 10 # var one 
 y = 20 # var two
 # z = x + y

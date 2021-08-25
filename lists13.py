@@ -14,20 +14,25 @@ print(MyAwesomelist)
 print(MyAwesomelist[1])
 print(MyAwesomelist[-1])
 print(MyAwesomelist[-3])
+print(MyAwesomelist[-2])
 print(type(MyAwesomelist[-3]))
-
+print('#'*50)
+print(MyAwesomelist)
 #for slice : output in the form of list
 print(MyAwesomelist[1:4]) #['two', 'one', 1]
 print(MyAwesomelist[:4])#['one', 'two', 'one', 1]
 print(MyAwesomelist[1:]) #['two', 'one', 1, 2.5, True]
 
 #using steps of slice: [start: end: step]
+print('steps')
 print(MyAwesomelist[::1]) #the whole list
 print(MyAwesomelist[::2])
 
 # out of range error: when you write index does not exist
 # print(MyAwesomelist[130])
-
+print("out of range error")
+print('#'*50)
+print("modify the list")
 #modify of elements in the list
 #............................
 #1-modify one element in the list
