@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{pagetitle}}</title>
+    <link rel="stylesheet" href="{{ url_for( 'static' , filename='css/main.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/master.css')}}">
+    {% if custom_css %}
+    <!-- to write folder and file name , use concatenate method and then make real css file  -->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/'+ custom_css +'.css')}}">
+    {% endif %}
+</head>
+<body>
+    <!-- the problem when I make div it appear as empty in about page , to prevent that use if -->
+    <!-- {% if custom_css %}
+    <div>{{ custom_css }}</div>
+    {% endif %} -->
+    {% block body %}  
+    {% endblock %}
+</body>
+</html>
