@@ -5,7 +5,7 @@
 #     do something with item
 #---------------------------
 # item is a variable create and call whenever you want
-# item refer to the current positio , can run to the end position
+# item refer to the current position , can run to the end position
 # iterable_object => sequence [lists , tupules , sets , dictionaries , set of characters ...]
 
 numbers = [1,2,3,4,5,6,7,8,9]
