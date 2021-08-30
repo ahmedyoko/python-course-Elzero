@@ -5,7 +5,7 @@
 # [1] object contain data , that can be iterated upon
 # [2] example ( list , tuple , set , dictionary)
 #.....................................
-# iterator : يعيد العنصر
+# iterator : -يحمل نسخة من العنصر -يعيد العنصر
 # [1] object used to iterate over iterable using next method and return one element at a time
 # [2] generate iterator from iterable by using iter()method
 # [3] for loop called Iter()method behind the scene
