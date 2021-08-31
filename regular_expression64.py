@@ -25,7 +25,7 @@
 # Match an Email
 # [A-z0-9\.]+@[A-z0-9]+\.[A-z]+
 # [A-z0-9\.]+@[A-z0-9]+\.{com}
-# ^[A-z0-9\.]+@[A-z0-9]+\.{com|net|org|info}$
+# ^[A-z0-9\.]+@[A-z0-9]+\.(com|net|org|info)$
 #...........................................
 # logical : or and escaping :
 # [1]         | or
