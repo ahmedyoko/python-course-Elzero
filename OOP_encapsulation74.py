@@ -52,6 +52,8 @@ one = member("Ahmed")
 # one._name = "Ismail"
 # print(one._name)
 print(one.say_hello())
-print(one._member__name)
+print(one._member__name) # variable._instance__paramater of private encapsulation
+one._member__name = "Ismail"
+print(one._member__name) # you can change the private
 
 print('*'*50)
