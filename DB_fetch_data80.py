@@ -20,9 +20,9 @@ cr.execute("CREATE TABLE if not exists users(user_id INTEGER,name TEXT)")
 cr.execute("CREATE TABLE if not exists skills(name TEXT,progress INTEGER,user_id INTEGER)")
 
 # insert data
-# cr.execute("insert into users(user_id,name)values(1,'Ahmed')")
-# cr.execute("insert into users(user_id,name)values(2,'Nagib')")
-# cr.execute("insert into users(user_id,name)values(3,'Osama')")
+cr.execute("insert into users(user_id,name)values(1,'Ahmed')")
+cr.execute("insert into users(user_id,name)values(2,'Nagib')")
+cr.execute("insert into users(user_id,name)values(3,'Osama')")
 
 # fetch data 
 # cr.execute("select name from users")
