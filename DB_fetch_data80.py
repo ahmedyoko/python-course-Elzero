@@ -27,14 +27,14 @@ cr.execute("insert into users(user_id,name)values(3,'Osama')")
 # fetch data 
 # cr.execute("select name from users")
 # cr.execute("select user_id,name from users")
-cr.execute("select * from users")
+# cr.execute("select * from users")
 
 # print(cr.fetchone())
 # print(cr.fetchone())
 # print(cr.fetchone())
 # print(cr.fetchone())
 # print(cr.fetchall())
-print(cr.fetchmany(2))
+# print(cr.fetchmany(2))
 
 # save(commit)changes => to transmit to data base and appear in browser
 db.commit()
