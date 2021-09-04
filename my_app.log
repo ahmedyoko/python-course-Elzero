@@ -1,0 +1,17 @@
+
+CRITICAL:root: this is critical message
+CRITICAL:root: this is critical message
+root
+2021-09-04 21:40:02,624 logger_Name= root CRITICAL  this is critical message
+(2021-09-04 21:43:14,780)=> | logger_Name= root | CRITICAL =>  this is critical message
+(2021-09-04 21:43:56,538) | logger_Name= root | ERROR =>  this is error message
+(2021-09-04 21:44:18,529) | logger_Name= root | WARNING =>  this is warning message
+(04 - September - 2021,21:45:31)=> | logger_Name= root | WARNING => '  this is warning message'
+(04 - September - 2021,21:48:47)=> | logger_Name= root | WARNING => '  this is warning message'
+(04 - September - 2021,21:49:45)=> | logger_Name= root | WARNING => '  this is warning message'
+(04 - September - 2021,21:49:50)=> | logger_Name= root | WARNING => '  this is warning message'
+(04 - September - 2021,21:49:50)=> | logger_Name= root | WARNING => '  this is warning message'
+(04 - September - 2021,21:49:50)=> | logger_Name= root | WARNING => '  this is warning message'
+(04 - September - 2021,21:51:08)=> | root | WARNING => '  this is warning message'
+(04 - September - 2021,21:53:23)=> | root | WARNING => '  this is warning message'
+(04 - September - 2021,21:55:00)=> | ahmed | WARNING => '  this is warning message'
