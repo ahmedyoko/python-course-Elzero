@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block body %} 
+<h1 class="page_head"> {{page_head}} </h1>
+<p class="description"> {{description}} </p>
+<!-- {{skills}} -->
+{% for skill in skills %} 
+<!-- to make data under each other put it in div  -->
+<div class="skill-box">
+    <div class="skill-name">{{ skill[0] }}</div>
+    <div class="skill-progress">
+        <!-- to make it dynamic width -->
+        <span style="width: {{ skill[1] }}%">  </span>
+    </div>
+    <!-- {{ skill[0] }} | {{ skill[1] }}  -->
+</div>
+{% endfor %}
+{% endblock %}
+
+<!-- function in one curly braces and the variable in 2 -->
+
+<!-- this code is template engine called => jinja -->

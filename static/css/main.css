@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+/* box-sizing: border-box;=> make padding and border not measure from the size of box  */
+
+body {
+    background-color: #EEE;
+    font-family: Arial,Tahoma;
+
+}
+.page_head,
+.description {
+    text-align: center;
+
+}
+.page_head {
+    font-size: 40px;
+    margin:20px 0 0;
+}
+
+.description {
+    font-size: 22px;
+    margin: 10px 0 40px;
+}
